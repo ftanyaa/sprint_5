@@ -8,11 +8,6 @@ class MainPageLocators:
     CONSTRUCTOR_BUTTON = (By.XPATH, "//p[text()='Конструктор']")
     LOGO = (By.XPATH, "//div[contains(@class,'AppHeader_header__logo')]")
 
-class LoginPageLocators:
-    EMAIL_INPUT = (By.NAME, "name")
-    PASSWORD_INPUT = (By.NAME, "Пароль")
-    LOGIN_BUTTON = (By.XPATH, "//button[text()='Войти']")
-    LOGIN_LINK = (By.XPATH, "//a[text()='Войти']")
     
 class RegistrationPageLocators:
     NAME_INPUT = (By.XPATH, "//label[text()='Имя']/following-sibling::input")
